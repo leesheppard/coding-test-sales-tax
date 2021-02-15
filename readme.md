@@ -1,5 +1,34 @@
 [![forthebadge](https://forthebadge.com/images/badges/made-with-ruby.svg)](https://forthebadge.com)
 
+# Requirements
+
+* [Ruby](Gemfile#L2)
+* [Bundler](https://bundler.io)
+
+## Configuration
+
+Download and install
+
+	$ git clone git@github.com:leesheppard/coding-test-sales-tax.git
+	$ cd coding-test-sales-tax
+	$ bundle install
+
+## Developer notes
+
+### Running output
+
+To run examples for output
+
+	$ rake input1
+	$ rake input2
+	$ rake input3
+
+### Testing
+
+To run test suite
+
+	$ rake test
+
 ------
 
 # SALES TAXES
@@ -12,7 +41,7 @@ Write an application that prints out the receipt details for these shopping bask
 
 Proper object orientated design is important. Each row in the input represents a line item of the receipt.
 
-##INPUT
+## INPUT
 
 ### Input 1
 Quantity, Product, Price
@@ -92,32 +121,3 @@ Please follow the Ruby Coding Style Guidelines - https://github.com/styleguide
 [3] https://github.com
 
 ------
-
-## Requirements
-
-* [Ruby](Gemfile#L2)
-* [Bundler](https://bundler.io)
-
-## Configuration
-
-Download and install
-
-	$ git clone git@github.com:leesheppard/coding-test-sales-tax.git
-	$ cd coding-test-sales-tax
-	$ bundle install
-
-## Developer notes
-
-### Running output
-
-To run examples for output
-
-	$ rake input1
-	$ rake input2
-	$ rake input3
-
-### Testing
-
-To run test suite
-
-	$ rake test
